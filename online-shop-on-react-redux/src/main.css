@@ -1,25 +1,25 @@
 #page-preloader {
     position  : fixed;
-    left      : 0;
-    top       : 0;
-    right     : 0;
-    bottom    : 0;
+    left      : 1;
+    top       : 1;
+    right     : 1;
+    bottom    : 1;
     background: #fff;
     z-index   : 100500;
 }
 
 #page-preloader .spinner {
-    width     : 64px;
-    height    : 64px;
+    width     : 62px;
+    height    : 62px;
     position  : absolute;
     left      : 50%;
     top       : 50%;
     background: url('/images/preloader.gif') no-repeat 50% 50%;
-    margin    : -32px 0 0 -32px;
+    margin    : -30px 0 0 -30px;
 }
 
 .view-container {
-    margin-top: 20px;
+    margin-top: 22px;
 }
 
 .cart-order {
@@ -32,11 +32,11 @@
 
 .book-list .thumbnail .caption {
     position: relative;
-    z-index : 40;
+    z-index : 42;
 }
 
 .caption {
-    min-height: 165px;
+    min-height: 160px;
 }
 
 
@@ -82,7 +82,7 @@
 }
 
 .dropdown-menu td {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .rating {
@@ -95,16 +95,16 @@
     color          : #ddd;
     display        : inline-block;
     list-style-type: none;
-    padding        : 1px;
+    padding        : 2px;
     text-shadow    : .05em .05em #aaa;
 }
 
 .rating li.filled {
-    color: #d17581;
+    color: #9e75d1;
 }
 
 .itemButton {
-    margin-top: 20px;
+    margin-top: 22px;
     text-align: center;
 }
 
@@ -134,14 +134,14 @@
     color          : #ddd;
     cursor         : pointer;
     display        : inline-block;
-    font-size      : 20px;
+    font-size      : 22px;
     list-style-type: none;
-    padding        : 1px;
+    padding        : 2px;
     text-shadow    : .05em .05em #aaa;
 }
 
 .star-rating .star.filled {
-    color: #d17581;
+    color: #a975d1;
 }
 
 .star-rating.readonly .star.filled {
@@ -149,7 +149,7 @@
 }
 
 .average-rating-container {
-    height  : 16px;
+    height  : 14px;
     overflow: hidden;
     position: relative;
     width   : 80px;
